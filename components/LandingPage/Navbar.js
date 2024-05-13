@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className='flex items-center justify-between'>
                 <div className='mx-7'>
                     <h4 className='text-4xl font-bold '>
-                        <span className='uppercase'>H</span>care
+                        <span className='uppercase'>Well</span>Spring
                     </h4>
 
                 </div>
@@ -16,7 +16,7 @@ const Navbar = () => {
                     <ul className='flex items-center gap-8  text-lg '>
                         <Link href='#'><li className='hidden md:block'>What we do</li></Link>
                         <Link href='#service'><li className='hidden md:block'>Our offerings</li></Link>
-                        <Link href='#'><li className='hidden md:block'>Prising</li></Link>
+                        <Link href='#'><li className='hidden md:block'>Pricing</li></Link>
                         <Link href='#'><li className='hidden md:block'>Blog</li></Link>
                         <a onClick={() => signIn('google', { callbackUrl: "/" })} href="#_">Login</a>
                     </ul>
